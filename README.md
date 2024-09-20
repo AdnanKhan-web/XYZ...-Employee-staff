@@ -1,47 +1,31 @@
-# XYZ...-Employee-staff
-  ashboard Description for XYZ Employee Data
-Title: XYZ EMPLOYEE DATA
+The provided Excel dashboard appears to represent a call center performance report. Here's a summary of the main components:
 
-Summary Metrics (Top Row)
-New Zealand
-Total Employees: 91
-Gender Distribution: 47% Female
-Average Salary: $76,979
-Employee Staff
-Total Employees: 92
-Gender Distribution: 47% Female
-Average Salary: $77,597
-Filters (Right Column)
-Gender: Options include Female, Male, Others.
-Country: Options include EMP_STAFF, NZ.
-Department: Options include Finance, HR, Procurement, Sales, Website.
-Rating: Options include Above average, Average, Exceptional, Poor, Very poor.
-Visualizations
-NZ by Department (Bottom Left)
+ 1. Key Metrics (Left Sidebar):
+   - Calls: Total number of calls is 1,000, with a breakdown of 186 for the selected category.
+   - Amount: Total revenue or amount collected is $96,623, with $16,000+ for the current segment.
+   - Duration: Total call duration is 89,850 minutes, with the current focus showing 17,807 minutes.
+   - Average Rating: The average customer satisfaction rating is 3.9.
+   - % of Calls: Shows percentage and absolute number of calls in the highlighted category (307 calls, with 62 highlighted).
 
-A horizontal bar chart showing the number of employees in each department for New Zealand.
-Website and Procurement departments have the highest number of employees (27 each).
-Other departments include Sales (14), HR (4), and Finance (19).
-Employee Staff by Department (Center Left)
+ 2. Visuals and Charts:
+   - Call Trend (Top Left): A line chart displays monthly call trends over the year, showing peaks around March and May.
+   - Day-wise Call Distribution (Top Center): A horizontal bar chart displays the number of calls per day, showing the busiest and least busy days of the week. Sunday and Saturday are lighter compared to weekdays.
+   - Gender-based Callers (Top Right): A stacked bar chart shows the split between male and female callers for each category. Males account for a larger share of calls compared to females.
+   - Rating Distribution (Top Far Right): A bar chart reflects customer ratings on a scale of 1 to 5, showing that most customers have given ratings of 4 or 5.
 
-A horizontal bar chart showing the number of employees in each department for the employee staff.
-Procurement has the highest number of employees (28).
-Other departments include Website (27), Sales (14), HR (4), and Finance (19).
-Running Total (Top Center)
+ 3. Detailed Call Breakdown (Bottom):
+   - A table breaks down calls and amounts for different cities (Cincinnati, Cleveland, Columbus) and regions (RO1 to RO5). 
+   - The slicer filters the data based on regions (RO1 to RO5).
+   - Call amounts and totals are summarized for different locations and regions, showing the performance across the segments.
 
-A line chart showing the running total of employees from May 2020 to March 2023.
-Indicates a steady increase in the number of employees over time.
-Salary Spread - by 10K (Bottom Center)
+ 4. Summary Section (Middle Right):
+   - % of Calls: 19% of total calls are from the selected region.
+   - Total Calls: 186 total calls.
+   - Amount: Shows 16,651 in revenue from the selected segment.
+   - Rank Average: The rank for the region in terms of performance is 5.
 
-A histogram showing the distribution of salaries in increments of $10,000.
-The highest concentration of salaries falls within the $60,000 to $70,000 range.
-Salary Spread Plot Box (Bottom Right)
+ 5. Slicers and Filters (Middle):
+   - Region-wise data can be filtered using slicers, providing dynamic updates for the different regions (RO1 to RO5), allowing the viewer to focus on specific geographical segments.
 
-A box plot showing the spread of salaries.
-Provides a visual representation of the median, quartiles, and potential outliers in the salary data.
-Salary vs Rating (Bottom Right)
-
-A scatter plot showing the relationship between salary and performance rating.
-Allows for analysis of how salary correlates with employee performance ratings.
-Summary
-The XYZ Employee Data dashboard offers a detailed overview of employee demographics, department distributions, salary information, and performance metrics. The visualizations help in understanding the distribution of employees across departments, the salary ranges, and the correlation between salary and performance ratings. Additionally, the running total chart provides insight into employee growth over time. The filters allow for dynamic analysis based on gender, country, department, and performance rating, making it a powerful tool for HR and management decision-making.
+ Overall Purpose:
+This dashboard provides a comprehensive view of call center metrics such as total calls, call duration, revenue generated, gender distribution of callers, and customer ratings. It allows managers to analyze performance across different regions and cities while filtering the data dynamically for more targeted insights.
